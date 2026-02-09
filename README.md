@@ -31,7 +31,7 @@ Não se trata de uma aplicação final ou produto comercial.
 ## 🧰 Tecnologias utilizadas
 
 🔹 [React](https://react.dev/)  
-🔹 [JavaScript ES6+](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)  
+🔹 [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)  
 🔹 [React Router](https://reactrouter.com/)  
  
 

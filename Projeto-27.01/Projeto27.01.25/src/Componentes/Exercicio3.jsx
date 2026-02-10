@@ -1,3 +1,5 @@
+import "/src/CSS/exe3.css"
+
 
 function Exercicio3() {
 function mostrarInsumo() {
@@ -18,9 +20,9 @@ imagem.src = insumo.Foto;
 }
 
   return (
-    <div style={{padding:'20px', border:'2px solid #ccc', marginTop:'10px'}}>
+    <div  id="exercicio3" className="container-principal">
       <h2>Resultado Estoque</h2>
-      <button onClick={mostrarInsumo}>Mostrar Insumo</button>
+      <button className="button-test" onClick={mostrarInsumo}>Mostrar Insumo</button>
       <div id="nome-insumo"  style={{marginTop:'10px',forWeigh:'bold'}}>Resultado do Insumo</div>
       <img id="foto-insumo" alt="Foto do Insumo" style={{marginTop:"10px"}}/>
     </div>

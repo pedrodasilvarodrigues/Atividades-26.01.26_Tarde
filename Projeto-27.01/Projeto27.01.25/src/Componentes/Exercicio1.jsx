@@ -1,4 +1,4 @@
-
+import "/src/CSS/exe1.css"
 
 function Exercicio1() {
     function atualizarStatus(){
@@ -9,11 +9,11 @@ function Exercicio1() {
     }
 
   return (
-    <div style={{padding:'20px', border:'1px solid #ccc'}}>
+    <div  id="exercicio1" className="container-principal" >
         <h2>Controle de Entregas</h2>
        <p id="status-entrega">Aguardando Entrega ...</p>
 
-  <button onClick = {atualizarStatus}>Atualizar Status </button>
+  <button className="button-test" onClick = {atualizarStatus}>Atualizar Status </button>
 
     </div>
   )

@@ -1,4 +1,4 @@
-
+import "/src/CSS/exe2.css"
 
 function Exercicio2() {
   function processarDados() {
@@ -26,9 +26,9 @@ function Exercicio2() {
   }
   return (
     
-    <div style={{padding: "20px" , border: "1px solid #ccc"}}>
+    <div  id="exercicio2" className="container-principal">
         <h2> Processamento de Fatura</h2>
-        <button onClick={processarDados}> Processar Dados</button>
+        <button  className="button-test" onClick={processarDados}> Processar Dados</button>
         <div id="detalhes-fatura"style={{marginTop:'10px',forWeigh:'bold'}}> Resultado Financeiro
         </div>
     </div>

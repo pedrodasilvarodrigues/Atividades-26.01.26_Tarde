@@ -1,0 +1,26 @@
+.container-principal {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+     transition: transform 0.4s ease;
+}
+.container-principal:hover{
+    transform: scale(1.09);
+}
+.button-test {
+    padding: 10px 20px;
+     transition: background-color 0.5s ease, color 0.5s ease;
+      transition: transform 0.4s ease;
+    background-color: #7db5f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-test:hover{
+    background-color:  #5188ff;
+   transform: scale(1.1);
+}

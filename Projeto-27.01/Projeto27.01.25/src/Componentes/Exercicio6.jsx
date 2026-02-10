@@ -1,4 +1,4 @@
-import React from 'react'
+import "/src/CSS/exe6.css"
 
 function Exercico6() {
     function calcularTotal() {
@@ -11,9 +11,9 @@ function Exercico6() {
         resultado.innerText = `Total: R$ ${total.toFixed(2)}`;
         }
   return (
-    <div style={{padding:'20px', border:'1px solid #ccc', marginTop:'10px'}}>
+    <div  id="exercicio6" className="container-principal">
         <h2>Cálculo de Total de Produtos</h2>
-        <button onClick={calcularTotal}>Calcular Total</button>
+        <button  className="button-test"onClick={calcularTotal}>Calcular Total</button>
         <div id="total-compra" style={{marginTop:'10px', fontWeight:'bold'}}>
         </div>
       

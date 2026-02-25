@@ -57,7 +57,7 @@ function CadastrodeProdutos() {
   }
 
   return (
-    <Container maxWidth="md" sx={{ mt: 5 }}>
+    <Container  className='container-form' maxWidth="md" sx={{ mt: 5 }}>
       <Grid container spacing={4}>
         
         {/* COLUNA 1: FORMULÁRIO DE CADASTRO */}

@@ -7,6 +7,11 @@ import Quantidade from './Components/Quantidade'
 import FormPreferencias from "./Components/FormPreference"
 import FormConfiguracoes from "./Components/FormConfiguracoes"
 import CadastrodeProdutos from "./Components/CadastrodeProdutos"
+import ExemploUseStates from "./Components/ExemploUseStates"
+import ContadorEstoque from "./Components/ContadorEstoque"
+import ExemploEffect from "./Components/ExemploEffect"
+import CronometroSimples from "./Components/CronometroSimples"
+import MonitorEstoque from "./Components/MonitorEstoque"
 
 
 createRoot(document.getElementById('root')).render(
@@ -16,5 +21,10 @@ createRoot(document.getElementById('root')).render(
 <FormPreferencias />
 <FormConfiguracoes />
 <CadastrodeProdutos />
+<ExemploUseStates />
+<ExemploEffect />
+<ContadorEstoque />
+<CronometroSimples />
+<MonitorEstoque />
   </StrictMode>,
 )
